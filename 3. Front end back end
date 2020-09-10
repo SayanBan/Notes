@@ -1,0 +1,18 @@
+The front end, also called “client-side” programming, is what happens in the browser. It’s everything the user sees and interacts with.
+
+The back end, also called “server-side” programming, happens on the server and the database. It’s the machinery that works behind the scenes to power 
+those fancy features users interact with on the client-side.
+
+Both play a crucial role in web development and although they have their fair share of differences, they are like two sides of the same coin. 
+Front-end is all about the visual aspects of the website that a user can see and experience. On the contrary, everything that happens in the
+background can be attributed to the back-end web development. It’s more like an enabler for frontend web experience.
+
+The developer of Front-end vs Back-end
+
+The web designer is the most common job title for the frontend web development and the role of a web designer is to design and rebuild websites keeping 
+the visual aspects in mind. Backend developers are the ones who make sure the data and systems requested by the frontend application or software are 
+efficiently delivered. Backend developers handle everything that happens in the background.
+
+The essentials of backend web development include languages such as Java, Ruby, Python, PHP, .Net, etc. 
+The most common frontend languages are HTML, CSS, and JavaScript.
+
