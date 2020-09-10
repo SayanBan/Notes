@@ -1,0 +1,50 @@
+Web page vs website
+
+Lets take an example of a book. We all read books. Now A book consists of manybe 100s or thousands of pages. 
+Now each of these pages, if you think this way , that each of them are an entity itself. 
+Each pages in the book carries informations, images and so on... 
+Now the web page is exactly that. a webpage is a single document that can be viewed online. This can be a page full of text, images, or videos.
+
+Using the same book analogy, while a webpage is a page from a book, a website is the book itself. It is a collection of the pages that share a common thread. 
+
+Now why does the difference matters?
+
+Unless and until you give search a url for a website like for examples www.instagram.com in a search engine, 
+Search engines don’t index websites; they index only webpages.
+
+Now for examples, Let me search iron man.
+Now you can see here that all the results which you can see are some particuler web page and not a website. Google didn’t send me to Wikipedia, or Marvel.com. 
+Instead, it sent me to specific webpages within those websites. 
+Why? Because Google’s main goal is to get me as close as possible to the thing I’m searching for. 
+
+This is why if any of you are trying to optimise your website so that your website comes first when searched for something related to the domain in  which 
+your website is, you will have to optimise all the webpages with keywords related to the site's domain. 
+
+The term web server can refer to hardware or software, or both of them working together.
+
+    On the hardware side, a web server is a computer that stores web server software and a website's component files. (for example, HTML documents, 
+    images, CSS stylesheets, and JavaScript files) A web server connects to the Internet and supports physical 
+    data interchange with other devices connected to the web.
+    
+    On the software side, a web server includes several parts that control how web users access hosted files. 
+    at minimum, this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP (the protocol your browser uses to view webpages). 
+    An HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.
+
+At the most basic level, whenever a browser needs a file that is hosted on a web server, 
+the browser requests the file via HTTP. When the request reaches the correct (hardware) web server, the (software) HTTP server accepts the request, 
+finds the requested document, and sends it back to the browser, also through HTTP. (If the server doesn't find the requested document, 
+it returns a 404 response instead.)
+
+To publish a website, you need either a static or a dynamic web server.
+
+A static web server, or stack, consists of a computer (hardware) with an HTTP server (software).
+We call it "static" because the server sends its hosted files as-is to your browser.
+
+A dynamic web server consists of a static web server plus extra software, most commonly an application server and a database. 
+We call it "dynamic" because the application server updates the hosted files before sending content to your browser via the HTTP server.
+
+For example, to produce the final webpages you see in the browser, the application server might fill an HTML template with content from a database. 
+Sites like MDN or Wikipedia have thousands of webpages. Typically, these kinds of sites are composed of only a few 
+HTML templates and a giant database, rather than thousands of static HTML documents. This setup makes it easier to maintain and deliver the content.
+
+
