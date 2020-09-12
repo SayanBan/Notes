@@ -1,0 +1,61 @@
+The DOM is a W3C (World Wide Web Consortium) standard.
+
+When a web page is loaded, the browser creates a Document Object Model of the page. 
+
+With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+
+    JavaScript can change all the HTML elements in the page
+    JavaScript can change all the HTML attributes in the page
+    JavaScript can change all the CSS styles in the page
+    JavaScript can remove existing HTML elements and attributes
+    JavaScript can add new HTML elements and attributes
+    JavaScript can react to all existing HTML events in the page
+    JavaScript can create new HTML events in the page
+
+
+The HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+    The HTML elements as objects
+    The properties of all HTML elements
+    The methods to access all HTML elements
+    The events for all HTML elements
+
+In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+The getElementById() method returns the element that has the ID attribute with the specified value.
+
+The HTML DOM can be accessed with JavaScript (and with other programming languages).
+
+In the DOM, all HTML elements are defined as objects.
+
+The programming interface is the properties and methods of each object.
+
+A property is a value that you can get or set (like changing the content of an HTML element).
+
+A method is an action you can do (like add or deleting an HTML element).
+
+A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.
+
+
+
+JavaScript HTML DOM Events
+
+To execute code when a user clicks on an element, we add JavaScript code 'Onclick' to an HTML event attribute.
+
+Examples of HTML events:
+
+    When a user clicks the mouse
+    When a web page has loaded
+    When an image has been loaded
+    When the mouse moves over an element
+    When an input field is changed
+    When an HTML form is submitted
+    When a user strokes a key
+
+https://www.w3schools.com/js/js_htmldom_events.asp
+
+
+
+
+
