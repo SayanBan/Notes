@@ -1,0 +1,40 @@
+As you can see in the code, we have taken 3 constants.
+Now as you have already learned, The getElementById() method returns the element that has the ID attribute with the specified value.
+
+Now if you see the html files, you will find the three IDs which has been specified here in get element by id.
+
+next you can see the 'checkRequired' definition has been used. This is because if there is a box which you have by mistake not filled,
+once you click submit, it'll show error.
+
+You can see clearly it is just a simple if else condition which says input.value.trim() is equivalent to a blank then it will show 
+the word Required when the submit button is clicked.
+
+Now the next here this is another if else condition. This one is for the check boxes in the instrument option. 
+if no instrument if chosen then it will show the sentense "Must choose an instrument", or else it will show okay.
+
+Next function is for the clear button . 
+
+The parentElement is another html DOM function. The parent element property returns the parent element of the specified element.
+Now there are two cases mentioned here. one is when after submit, the form shows 'error' or when there is no error before or after submitting the form. 
+
+In both cases, once you hit the clear button, it will erase all the user inputs from the form.
+
+query selector is a dom function
+
+The function of query selector is that If the selector matches an ID in document that is used several times, it returns the first matching element.
+
+like there is the show error and show okay function which has used the query selector
+
+so if it finda an error it will show error, that is the word "required" in red and if not, then it shows okay
+
+The addEventListener() method attaches an event handler to the specified element.
+
+The getElementsByTagName() method returns a collection of all elements in the document with the specified tag name, as an HTMLCollection object.
+
+The HTMLCollection object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0
+here it will return all the elemts with the tag 'input'
+
+The first add event listener is for the clear button and the second want is for the submit button.
+
+At last there is 'check required input' and 'check required checkbox' , which are functions responsible for checking whether everything is okay or there is an error.
+
