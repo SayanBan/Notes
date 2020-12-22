@@ -1,0 +1,11 @@
+1) Conventional programming divides the problem into functions but object oriented programming divides the problem into a number of entities called object.
+
+2) Conventional programming represents non real modeling but object oriented programming represents real world modeling like the parents' child concept, inheritance.
+
+3) Conventional programming follows a top-down approach but object oriented programming follow bottom-up approach.
+
+4) Conventional programming does not support reusability but object oriented programming support reusability the code.
+
+5)  Conventional programming is used for designing medium sized application, maintenance and modification of large complex system 
+    is time consuming and costly. Object oriented programming is used for designing large and complex applications, maintenance and 
+    modification of large and complex system is relatively less time consuming and costly
