@@ -1,0 +1,13 @@
+1)  JIT is part of JVM itself and its main function is to improve the performance of JVM by 
+    directly compiling some code which executes above a certain threshold into native instruction.  
+    JIT helps JVM here by compiling currently executing byte code into machine language
+
+
+    JVM is a virtual machine used in Java programming platform to execute or run Java programs.
+
+2)  JIT stands for Just In time compilation and JVM stands for Java Virtual Machine
+    
+    
+3) Java source code is compiled into class files, which contain bytecode.
+    JIT helps JVM here by compiling currently executing byte code into machine language
+
