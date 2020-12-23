@@ -1,0 +1,27 @@
+RDBMS stands for Relational Database Management System. RDBMS is the basis for SQL, and for all modern database systems like 
+MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
+
+A Relational database management system (RDBMS) is a database management system (DBMS) that is based on the relational model.
+
+The data in an RDBMS is stored in database objects which are called as tables. 
+This table is basically a collection of related data entries and it consists of numerous columns and rows
+
+A **NULL** value in a table is a value in a field that appears to be blank, which means a field with a NULL value is a field with no value.
+
+**PRIMARY KEY** - The SQL contrsaint that Uniquely identifies each row/record in a database table.
+
+**FOREIGN KEY** - SQL Constraint that Uniquely identifies a row/record in any another database table.
+
+**Super Key** -  A super key is a group of single or multiple keys which identifies rows in a table. 
+
+**ALTERNATE KEYS** - a column or group of columns in a table that uniquely identify every row in that table. 
+                 A table can have multiple choices for a primary key but only one can be set as the primary key. 
+                 All the keys which are not primary key are called an Alternate Key. 
+                 
+**CANDIDATE KEY** - a set of attributes that uniquely identify tuples in a table. 
+                    Candidate Key is a super key with no repeated attributes. 
+                    
+**FOREIGN KEY** - A column that creates a relationship between two tables. 
+                  The purpose of Foreign keys is to maintain data integrity and allow navigation between two different instances of an entity.
+                  
+**COMPOSITE KEY** - A combination of two or more columns that uniquely identify rows in a table. 
