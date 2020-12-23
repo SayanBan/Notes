@@ -1,0 +1,22 @@
+Relational Model represents how data is stored in Relational Databases.  A relational database stores data in the form of relations (tables).
+
+
+**Attribute**: Attributes are the properties that define a relation. e.g.; ROLL_NO, NAME
+
+**Relation Schema**: A relation schema represents name of the relation with its attributes. e.g.; STUDENT (ROLL_NO, NAME, ADDRESS, PHONE and AGE) is relation schema for STUDENT. If a schema has more than 1 relation, it is called Relational Schema.
+
+**Tuple**: Each row in the relation is known as tuple.
+
+***Relation Instance***: The set of tuples of a relation at a particular instance of time is called as relation instance. 
+                         Table 1 shows the relation instance of STUDENT at a particular time. It can change whenever there is insertion, deletion or updation
+                         in the database.
+                         
+***DEGREE*** - The number of attributes in the relation is known as degree of the relation. 
+
+***CARDINALITY*** - The number of tuples in a relation is known as cardinality
+
+***Relation R*** - contains the set of records – tables in RDBMS
+
+***Domain D*** - A set of atomic values; each value in the domain is indivisible
+
+
