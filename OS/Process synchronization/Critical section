@@ -1,0 +1,113 @@
+
+●Race Condition - if we change the order of execution of different process with respect to other process the output may change.
+
+Critical Section Problem
+
+General Structure of a process
+
+●Initial Section: Where process is accessing private resources.
+●Entry Section: Entry Section is that part of code where, each process request for permission to enter its critical section.
+●Critical Section: Where process is access shared resources.
+●Exit Section: It is the section where a process will exit from its critical section.
+●Remainder Section: Remaining Code.
+
+
+Pi()
+{
+While(T)
+{
+Initial Section
+Entry Section
+Critical Section
+Exit Section
+Remainder Section
+}
+}
+Criterion to Solve Critical Section Problem
+
+●Mutual Exclusion: No two processes should be present inside the critical section at the same time, i.e. only one process is allowed in the critical section at an instant of time.
+
+●Progress: If no process is executing in its critical section and some processes wish to enter their critical sections, then only those processes that are not executing in their remainder sections can participate in deciding which will enter its critical section next(means other process will participate which actually wish to enter), and there should be no deadlock.
+
+●Bounded Waiting: There exists a bound or a limit on the number of times a process is allowed to enter its critical section and no process should wait indefinitely to enter the CS.
+
+Solutions to Critical Section Problem:
+
+We generally have the following solutions to a Critical Section Problems:
+
+1.Two Process Solution
+(a)Using Boolean variable turn
+(b)Using Boolean array flag
+(c)Peterson’s Solution
+
+2.Operating System Solution
+(a)Counting Semaphore
+(b)Binary Semaphore
+
+3.Hardware Solution
+(a)Test and Set Lock
+
+4.Computer and Programming Support Type
+(a)Monitors
+Two Process Solution
+•In general, it will be difficult to write a valid solution in the first go to solve critical section problem among multiple processes, so it will be better to first attempt two process solution and then generalize it to N-Process solution.
+•There are 3 Different idea to achieve valid solution, in which some are invalid while some are valid.
+1- Using Boolean variable turn 2- Using Boolean array flag
+3- Peterson’s Solution
+
+Here we will use a Boolean variable turn, which is initialize randomly (0/1)
+
+
+
+P0	P1
+while (1)
+{
+while (turn! = 0); Critical Section turn = 1; Remainder section
+}	while (1)
+{
+while (turn! = 1); Critical Section turn = 0; Remainder Section
+}
+
+
+●The solution follows Mutual Exclusion as the two processes cannot enter the CS at the same time.
+●The solution does not follow the Progress, as it is suffering from the strict alternation. We never asked the process whether it wants to enter the CS or not?
+Here we will use a Boolean array flag with two cells, where each cell is initialized to 0.
+
+P0	P1
+while (1)
+{
+flag [0] = T; while (flag [1]); Critical Section flag [0] = F;
+Remainder section
+}	while (1)
+{
+flag [1] = T; while (flag [0]); Critical Section flag [1] = F;
+Remainder Section
+}
+
+●This solution follows the Mutual Exclusion Criteria.
+●But in order to achieve the progress the system ended up being in a deadlock state.
+
+ Peterson’s Solution
+
+●It is a classic software-based solution to the critical-section problem.
+●Peterson's solution is restricted to two processes that alternate execution between their critical sections and remainder sections.
+●The processes are numbered P0 and P1.
+We will be using two data items: int turn and Boolean flag.
+
+P0	P1
+while (1)
+{
+flag [0] = T; turn = 1;
+while (turn = = 1 && flag [1] = = T);
+Critical Section flag [0] = F; Remainder section
+}	while (1)
+{
+flag [1] = T; turn = = 0;
+while (turn = = 0 && flag [0] = =T);
+Critical Section flag [1] = F; Remainder Section
+}
+
+
+●This solution ensures Mutual Exclusion, Progress and Bounded Wait.
+
+
