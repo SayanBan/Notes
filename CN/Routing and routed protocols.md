@@ -1,0 +1,22 @@
+There are two types of packets used at this layer :
+
+    Data Packets –
+    The user data is transferred in the inter-network by these data packets. Routed protocols are those protocols which support such data traffic. 
+    Examples of routed protocols are IPv4, IPv6 and AppleTalk.
+    
+    Route Update Packets –
+    The information about the networks connected to all the routers is updated to the neighbouring routers through route update packets. Routing protocols are 
+    the ones that are responsible for sending them. Examples of routing protocols are RIP(Routing Information Protocol), EIGRP(Enhanced Interior 
+    Gateway Routing Protocol) and OSPF(Open Shortest Path First).
+    
+Abbreviations –
+
+IGP – Interior Gateway Protocol
+EGP – Exterior Gateway Protocol
+RIP – Routing Information Protocol
+IGRP – Interior Gateway Routing Protocol
+OSPF – Open Shortest Path First
+ISIS – Intermediate System to Intermediate System
+EIGRP – Enhanced Interior Gateway Routing Protocol
+BGP – Border Gateway Protocol
+
