@@ -1,5 +1,15 @@
 **An interface in Java is a mechanism that is used to achieve complete abstraction. 
-It is basically a kind of class that contains only constants and abstract methods.**
+It is basically a kind of class that contains only constants and abstract methods.
+An interface in Java is a blueprint of a class. It has static constants and abstract methods.**
+
+*Syntax*
+
+     interface <interface_name>{  
+      
+      // declare constant fields  
+      // declare methods that abstract   
+      // by default.  
+     }  
 
 We cannot define private and protected modifiers for variables in interface because **the 
 fields (data members) declared in an interface are by default public, static, and final.**
@@ -49,3 +59,26 @@ E) public interface A {
    This is because a final method cannot be overridden in java. But an interface method should be implemented by another class.
    
    
+# Multiple Inheritence
+
+multiple inheritance is not supported in the case of class because of ambiguity. However,
+it is supported in case of an interface because there is no ambiguity. It is because its implementation is provided by the implementation class. For example:
+
+interface Printable{  
+void print();  
+}  
+interface Showable{  
+void print();  
+}  
+  
+class TestInterface3 implements Printable, Showable{  
+public void print(){System.out.println("Hello");}  
+public static void main(String args[]){  
+TestInterface3 obj = new TestInterface3();  
+obj.print();  
+ }  
+}  
+
+In the above example, Printable and Showable interface have same 
+methods but its implementation is provided by class TestTnterface1, so there is no ambiguity.
+
